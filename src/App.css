@@ -1,0 +1,64 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 20px 0;
+  font-size: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-page {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h2 {
+  color: #4CAF50; /* Verde */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-item p:last-child {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFC107; /* Amarelo */
+}
